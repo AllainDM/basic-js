@@ -25,13 +25,10 @@ export default function getSeason(date) {
   } else if (y === 11 || y === 0 || y === 1) {
       return 'winter';
 
-  } else {
+  } 
+   else {
+    // throw "Invalid date!";
     throw new Error("Invalid date!");
   }
-  // if (y > 11) throw new Error("Invalid date!");
-  // if (y === 11 || y === 0 || y === 1) return 'winter';
-  // if (y > 8) return 'autumn';
-  // if (y > 5) return 'summer';
-  // if (y > 2) return 'spring';
-  //throw new Error("Invalid date!");
+
 }
